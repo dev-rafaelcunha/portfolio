@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/berkshire-swash');
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+.section-home {
+    animation: initialize .7s forwards;
+    font-family: 'Poppins';
+    font-weight: normal;
+    height: 100vh;
+}
+
+.section-about {
+    animation: none !important;
+    font-family: 'Poppins';
+    font-weight: normal;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.section-tech {
+    animation: none !important;
+    font-family: 'Poppins';
+    font-weight: normal;
+    overflow: hidden;
+}
+
+.section-mobile {
+    animation: none !important;
+    font-family: 'Poppins';
+    font-weight: normal;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cv {
+    color: #fff;
+    padding: 0.938rem 2.5rem;
+    border-radius: 0.313rem;
+    border: 0.125rem solid white;
+    text-decoration: none;
+}
+
+.description {
+    font-family: 'Poppins';
+    font-weight: 200;
+    letter-spacing: 0.063rem;
+}
+
+.description-bold {
+    font-family: 'Poppins';
+    font-weight: 600;
+    letter-spacing: 0.063rem;
+}
+
+.img-author {
+    max-width: 100%;
+}
+
+.typing::after {
+    content: '|';
+    margin-left: 0.313rem;
+    opacity: 1;
+    animation: blink .5s infinite;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.points {
+    display: block;
+    height: 0.625rem;
+    width: 0.625rem;
+    border-radius: 50%;
+    background-color: #dc3545;
+}
+
+/* PAGINA SOBRE */
+.img-about {
+    animation: ladoSecao .5s ease-in-out forwards;
+    max-width: 100%;
+}
+
+.info-about {
+    animation: sobeSecao .6s ease-in-out forwards;
+}
+
+/* PAGINA TECK */
+
+.card {
+    animation: desceSecao .8s ease-in-out forwards;
+    height: 200px !important;
+}
+
+.card::before {
+    content: '';
+    transition: .5s ease-in-out;
+    border-radius: 6px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.card::after {
+    content: '';
+    transition: .5s ease-in-out;
+    border-radius: 6px;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.card:hover::before {
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid #dc3545;
+    border-right: 2px solid #dc3545;
+}
+
+.card:hover::after {
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid #dc3545;
+    border-left: 2px solid #dc3545;
+}
+
+/* PAGINA MOBILE */
+.nav-mobile {
+    animation: ladoSecao .7s ease-in-out;
+}
+
+/* KEY FRAMES */
+
+/* EFEITO PISCAR TELA */
+@keyframes blink {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: 0;
+
+    }
+}
+
+@keyframes initialize {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -3.75rem, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* EFEITO DESLIZAR DESCRIÇÃO SOBRE */
+
+@keyframes sobeSecao {
+    from {
+        transition: .5s;
+        transform: translate3d(3.75rem, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* EFEITO DESLIZAR IMG SOBRE */
+
+@keyframes ladoSecao {
+    from {
+        transition: .5s;
+        transform: translate3d(-3.75rem, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/* EFEITO DESCER SEÇÃO */
+
+@keyframes desceSecao {
+
+    from {
+        transition: .5s;
+        transform: translate3d(0, -4.75rem, 0);
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+    }
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 766px) {
+    body {
+        overflow-y: auto !important;
+    }
+
+    /* PAGINA MOBILE */
+    .link::after {
+        content: '';
+        width: 10px;
+        height: 0px;
+        display: block;
+        border-bottom: 4px solid #dc3545;
+        transition: .9s;
+    }
+
+    .link:hover::after {
+        width: 100%;
+        height: 0px;
+        padding: 0px;
+        border-bottom: 4px solid #dc3545;
+    }
+
+    .cv {
+        color: #fff;
+        padding: 0.65rem 0.695rem;
+        border-radius: 0.313rem;
+        border: 0.125rem solid white;
+        text-decoration: none;
+        font-size: .6rem !important;
+    }
+}
+
+/* ATÉ 767 (SM) */
+@media (max-width: 47.938rem) {
+    body {
+        overflow-y: auto !important;
+    }
+
+    .section-home {
+        padding-left: 4.125rem;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .cv {
+        color: #fff;
+        padding: 0.65rem 0.695rem;
+        border-radius: 0.313rem;
+        border: 0.125rem solid white;
+        text-decoration: none;
+    }
+
+    .title {
+        font-size: 21px;
+    }
+
+    .typing {
+        font-size: 21px;
+    }
+
+    /* PAGINA SOBRE */
+    .title-header {
+        display: none;
+    }
+
+    .section-about {
+        padding-right: 200px !important;
+    }
+
+    .info-about p {
+        padding: 5px !important;
+        display: block !important;
+    }
+
+    .info-author {
+        display: flex !important;
+    }
+
+    /* PAGINA MOBILE */
+    .link::after {
+        content: '';
+        width: 10px;
+        height: 0px;
+        display: block;
+        border-bottom: 4px solid #dc3545;
+        transition: .9s;
+    }
+
+    .link:hover::after {
+        width: 100%;
+        height: 0px;
+        padding: 0px;
+        border-bottom: 4px solid #dc3545;
+    }
+}
+
+/* A PARTIR DA RESOLUÇÃO 768 (MD) */
+@media (min-width: 48rem) {
+    body {
+        overflow-y: auto !important;
+    }
+
+    .section-home {
+        padding-left: 15.625rem;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .cv {
+        color: #fff;
+        padding: 0.938rem 2.4rem;
+        border-radius: 0.313rem;
+        border: 0.125rem solid white;
+        text-decoration: none;
+    }
+
+    /* PAGINA SOBRE */
+    .title-header {
+        display: none;
+    }
+
+    .info-author {
+        display: none !important;
+    }
+
+    /* PAGINA MOBILE */
+    .link::after {
+        content: '';
+        width: 10px;
+        height: 0px;
+        display: block;
+        border-bottom: 4px solid #dc3545;
+        transition: .9s;
+    }
+
+    .link:hover::after {
+        width: 100%;
+        height: 0px;
+        padding: 0px;
+        border-bottom: 4px solid #dc3545;
+    }
+}
+
+/* A PARTIR DA RESOLUÇÃO 992 (LG) */
+@media (min-width: 62rem) {
+    .section-home {
+        padding-left: 0rem;
+    }
+
+    .section-tech {
+        height: 100vh;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .img-author {
+        margin-top: 1.875rem;
+        margin-left: 0rem !important;
+    }
+
+    /* PAGINA SOBRE */
+    .title-header {
+        display: none;
+    }
+
+    .info-author {
+        display: flex !important;
+    }
+
+    /* PAGINA MOBILE */
+    .link::after {
+        display: none;
+    }
+
+    .link:hover::after {
+        display: none;
+    }
+}
+
+/* A PARTIR DA RESOLUÇÃO 1200 (XL) */
+@media (min-width: 75rem) {
+    .section-home {
+        padding-left: 0rem;
+    }
+
+    .img-author {
+        margin-top: -1rem;
+    }
+
+    /* PAGINA SOBRE */
+    .title-header {
+        display: none;
+    }
+
+    .about-me {
+        margin-top: 1.25rem;
+    }
+
+    .info-about {
+        margin-top: 60px !important;
+    }
+
+    .info-author {
+        display: flex !important;
+    }
+}
+
+/* A PARTIR DA RESOLUÇÃO 1400 (XXL) */
+@media (min-width: 87.5rem) {
+    .section-home {
+        padding-left: 0rem;
+    }
+
+    /* PAGINA SOBRE */
+    .img-about {
+        max-width: 90%;
+        margin-top: 0rem;
+    }
+
+    .title-header {
+        display: none;
+    }
+
+    .about-me {
+        margin-top: -1.25rem;
+    }
+
+    .info-about {
+        margin-top: 80px !important;
+    }
+
+    .info-author {
+        display: flex !important;
+    }
+}
+
+/* A PARTIR DA RESOLUÇÃO 1600 (CUSTOM) */
+@media (min-width: 100rem) {
+    .section-home {
+        padding-left: 0rem;
+    }
+
+    /* PAGINA SOBRE */
+    .img-about {
+        max-width: 90%;
+        margin-top: 0rem;
+    }
+
+    .title-header {
+        display: block;
+    }
+
+    .about-me {
+        margin-top: -1.25rem;
+    }
+
+    .info-about {
+        margin-top: 80px !important;
+    }
+
+    .info-author {
+        display: flex !important;
+    }
+}
