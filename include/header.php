@@ -1,7 +1,8 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5" style="background-color: #000;">
         <div class="container">
-            <a href="index.php" class="text-light text-decoration-none"><span class="text-danger h3 mx-2">Portfólio</span></a>
+            <a href="index.php" class="text-light text-decoration-none"><span
+                    class="text-danger h3 mx-2">Portfólio</span></a>
             <div class="nav" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 h5 d-lg-flex d-none">
                     <li class="nav-item">
@@ -85,9 +86,7 @@
             </div>
         </div>
         <div>
-            <li class="nav-link">
-                    <button class="btn-darkmode" onclick="toggleDarkMode()">Alternar Modo</button>
-            </li>
+            <input class="dark-mode d-lg-flex d-none" type="checkbox" onclick="toggleDarkMode()">
         </div>
     </nav>
 </header>
