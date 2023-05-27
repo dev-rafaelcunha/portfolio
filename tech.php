@@ -10,21 +10,21 @@
     <title>Portfólio/Sobre</title>
 </head>
 
-<body style="background-color: #000;">
+<body class="light">
 
     <!-- HEADER -->
     <?php require_once('include/header.php') ?>
     <!-- HEADER -->
 
-    <!-- SECTION -->
-    <section class="section-tech d-flex justify-content-center align-items-center" style="background-color: #050505;">
+    <!-- CONTAINER - SECTION -->
+    <div class="container">
+        <section class="section-tech d-flex justify-content-center align-items-center">
 
-        <div class="container px-4 my-5 py-5">
-
-            <div class="about-me">
+            <div>
 
                 <div class="title-header">
-                    <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Tecnologias</h2>
+                    <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Tecnologias
+                    </h2>
                     <p class="text-center fs-5 text-secondary">Linguagens | Habilidades
                     </p>
                     <div class="d-flex justify-content-center">
@@ -44,8 +44,9 @@
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">HTML5
                                 </h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Utilizada para
-                                    marcação de Texto</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Utilizada para
+                                        marcação de Texto</strong></p>
                             </div>
                         </div>
                     </div>
@@ -57,8 +58,9 @@
                                         class="fa-brands fa-css3-alt text-danger d-flex justify-content-center"
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">CSS3</h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Utilizada para
-                                    estilização</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Utilizada para
+                                        estilização</strong></p>
                             </div>
                         </div>
                     </div>
@@ -71,8 +73,9 @@
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">Bootstrap
                                 </h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Framework para
-                                    estilização</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Framework para
+                                        estilização</strong></p>
                             </div>
                         </div>
                     </div>
@@ -85,7 +88,8 @@
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">
                                     JavaScript</h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Linguagem para interatividade</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Linguagem para interatividade</strong></p>
                             </div>
                         </div>
                     </div>
@@ -97,7 +101,8 @@
                                         class="fa-brands fa-php text-danger d-flex justify-content-center"
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">PHP</h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Linguagem back-end</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Linguagem back-end</strong></p>
                             </div>
                         </div>
                     </div>
@@ -108,9 +113,11 @@
                                 <h5 class="card-title"><i
                                         class="fa-solid fa-database text-danger d-flex justify-content-center"
                                         style="font-size: 69px;"></i></h5>
-                                <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">Banco de Dados
+                                <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">Banco de
+                                    Dados
                                 </h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Utilizo MySQL e Postgress</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Utilizo
+                                        MySQL e Postgress</strong></p>
                             </div>
                         </div>
                     </div>
@@ -122,7 +129,8 @@
                                         class="fa-brands fa-square-git text-danger d-flex justify-content-center"
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">Git</h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Versionamento de Código</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Versionamento de Código</strong></p>
                             </div>
                         </div>
                     </div>
@@ -135,7 +143,8 @@
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">GitHub
                                 </h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Repositório para o Versionamento</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Repositório para o Versionamento</strong></p>
                             </div>
                         </div>
                     </div>
@@ -148,7 +157,8 @@
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">BitBucket
                                 </h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Repositório para o Versionamento</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Repositório para o Versionamento</strong></p>
                             </div>
                         </div>
                     </div>
@@ -161,7 +171,8 @@
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">Kanban
                                 </h6>
-                                <p class="card-text text-white-50 text-center" style="font-size: 11px;"><strong>Métodologia Ágil</strong></p>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Métodologia Ágil</strong></p>
                             </div>
                         </div>
                     </div>
@@ -170,10 +181,9 @@
 
             </div>
 
-        </div>
-
-    </section>
-    <!-- SECTION -->
+        </section>
+    </div>
+    <!-- CONTAINER - SECTION -->
 
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>

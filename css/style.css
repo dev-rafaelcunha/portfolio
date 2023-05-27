@@ -7,7 +7,28 @@
 }
 
 body {
-    overflow: hidden;
+    overflow: hidden !important;
+}
+
+body.light {
+    background-color: #ddd !important;
+    color: #333 !important;
+}
+
+/* Estilos para o modo escuro */
+body.dark {
+    background-color: #141414;
+    color: #f5f5f5 !important;
+}
+
+/* Estilos para o botão */
+.btn-darkmode {
+    background-color: #333 !important;
+    color: #f5f5f5 !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
 }
 
 .section-home {
@@ -22,14 +43,12 @@ body {
     font-family: 'Poppins';
     font-weight: normal;
     height: 100vh;
-    overflow: hidden;
 }
 
 .section-tech {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    overflow: hidden;
 }
 
 .section-mobile {
@@ -37,14 +56,13 @@ body {
     font-family: 'Poppins';
     font-weight: normal;
     height: 100vh;
-    overflow: hidden;
 }
 
 .cv {
     color: #fff;
     padding: 0.938rem 2.5rem;
     border-radius: 0.313rem;
-    border: 0.125rem solid white;
+    border: 0.125rem solid #dc3545;
     text-decoration: none;
 }
 
@@ -206,16 +224,16 @@ body {
     }
 
     to {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
 }
 
 /* RESPONSIVIDADE */
 
 @media (max-width: 766px) {
-    body {
+    /* body {
         overflow-y: auto !important;
-    }
+    } */
 
     /* PAGINA MOBILE */
     .link::after {
@@ -238,7 +256,6 @@ body {
         color: #fff;
         padding: 0.65rem 0.695rem;
         border-radius: 0.313rem;
-        border: 0.125rem solid white;
         text-decoration: none;
         font-size: .6rem !important;
     }
@@ -262,7 +279,6 @@ body {
         color: #fff;
         padding: 0.65rem 0.695rem;
         border-radius: 0.313rem;
-        border: 0.125rem solid white;
         text-decoration: none;
     }
 
@@ -328,7 +344,6 @@ body {
         color: #fff;
         padding: 0.938rem 2.4rem;
         border-radius: 0.313rem;
-        border: 0.125rem solid white;
         text-decoration: none;
     }
 
@@ -412,10 +427,6 @@ body {
         display: none;
     }
 
-    .about-me {
-        margin-top: 1.25rem;
-    }
-
     .info-about {
         margin-top: 60px !important;
     }
@@ -441,10 +452,6 @@ body {
         display: none;
     }
 
-    .about-me {
-        margin-top: -1.25rem;
-    }
-
     .info-about {
         margin-top: 80px !important;
     }
@@ -468,10 +475,6 @@ body {
 
     .title-header {
         display: block;
-    }
-
-    .about-me {
-        margin-top: -1.25rem;
     }
 
     .info-about {

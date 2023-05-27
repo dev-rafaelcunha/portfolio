@@ -10,17 +10,18 @@
     <title>Portfólio</title>
 </head>
 
-<body>
+<body class="light">
 
     <!-- HEADER -->
     <?php require_once('include/headerMobile.php') ?>
     <!-- HEADER -->
 
     <!-- SECTION -->
-    <section class="section-mobile d-flex align-items-center justify-content-center" style="background-color: #050505;">
+    <div class="container">
+        <section class="section-mobile d-flex align-items-center justify-content-center">
 
-        <nav class="navbar navbar-dark">
-            <div class="container p-0 m-0">
+            <nav class="navbar">
+
                 <div class="nav" id="navbarSupportedContent">
                     <ul class="navbar-nav h5 nav-mobile">
                         <li class="nav-item">
@@ -99,10 +100,11 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
 
-    </section>
+            </nav>
+
+        </section>
+    </div>
     <!-- SECTION -->
 
     <!-- FOOTER -->

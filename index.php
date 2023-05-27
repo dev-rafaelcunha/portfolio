@@ -10,17 +10,18 @@
     <title>Portfólio</title>
 </head>
 
-<body>
+<body class="light">
 
     <!-- HEADER -->
     <?php require_once('include/header.php') ?>
     <!-- HEADER -->
 
-    <!-- SECTION -->
-    <section class="section-home d-flex align-items-center justify-content-center" style="background-color: #050505;">
-        <div class="container mx-5">
+    <!-- CONTAINER - SECTION -->
+    <div class="container">
+        <section class="section-home d-flex align-items-center justify-content-center">
+
             <div class="row">
-                <div class="col-6 text-light py-5 mx-5">
+                <div class="col-6 py-5 mx-5">
                     <h2 class="py-3 title">Rafael Cunha</h2>
                     <h3 class="py-2 typing d-sm-flex">Desenvolvedor Back-end</h3>
                     <hr>
@@ -41,9 +42,10 @@
                     <img src="img/rafa.png" alt="Imagem ilustrativa do autor" class="img-author d-lg-flex d-none">
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- SECTION -->
+
+        </section>
+    </div>
+    <!-- CONTAINER - SECTION -->
 
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>

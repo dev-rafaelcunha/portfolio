@@ -10,18 +10,17 @@
     <title>Portfólio/Sobre</title>
 </head>
 
-<body>
+<body class="light">
 
     <!-- HEADER -->
     <?php require_once('include/header.php') ?>
     <!-- HEADER -->
 
-    <!-- SECTION -->
-    <section class="section-about d-flex align-items-center justify-content-center" style="background-color: #050505;">
+    <!-- CONTAINER - SECTION -->
+    <div class="container">
+        <section class="section-about d-flex align-items-center justify-content-center">
 
-        <div class="container p-0 m-0">
-
-            <div class="about-me">
+            <div>
 
                 <div class="title-header">
                     <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Quem Sou?</h2>
@@ -39,15 +38,18 @@
                         <img src="img/rafa2.png" alt="Imagem ilustrativa do autor"
                             class="border img-about d-md-flex d-none">
                     </div>
-                    <div class="col-7 text-light my-3 info-about">
+                    <div class="col-7 my-3 info-about">
                         <h3>Rafael Cunha</h3>
                         <h5>Desenvolvedor PHP</h5>
                         <hr>
                         <div class="paragrafo d-md-inline d-none">
-                            <p class="description">Meu nome é Rafael, sou desenvolvedor back-end, atualmente faço estágio na empresa <b>Tork Soluções</b>, como desenvolvedor PHP.
-                                </p>
-                            <p class="description">Atuo também na parte de front-end, podendo desenvolver sistemas, sites, blogs, altamente responsivos.</p>
-                            <p class="description">Amo tecnologia, estou sempre disposto a aprender e compartilhar meus conhecimentos, em busca de novos desafios.</p>
+                            <p class="description">Meu nome é Rafael, sou desenvolvedor back-end, atualmente faço
+                                estágio na empresa <b>Tork Soluções</b>, como desenvolvedor PHP.
+                            </p>
+                            <p class="description">Atuo também na parte de front-end, podendo desenvolver sistemas,
+                                sites, blogs, altamente responsivos.</p>
+                            <p class="description">Amo tecnologia, estou sempre disposto a aprender e compartilhar meus
+                                conhecimentos, em busca de novos desafios.</p>
                         </div>
                         <div class="row info-about info-author">
                             <div class="col-md-6 px-0">
@@ -71,15 +73,13 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
-    <!-- SECTION -->
+        </section>
+    </div>
+    <!-- CONTAINER - SECTION -->
 
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>
