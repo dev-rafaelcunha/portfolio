@@ -35,7 +35,7 @@
                                 carreira.</span></p>
                     </div>
                     <div class="py-5 d-flex align-itens-center">
-                        <a class="cv link-danger" href="file/Currículo Rafa.pdf" target="_blank">Download CV</a>
+                        <a class="btn btn-lg btn-outline-danger description-bold cv" href="file/Currículo Rafa.pdf" target="_blank">Download CV</a>
                     </div>
                 </div>
                 <div class="col my-4">

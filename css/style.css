@@ -1,27 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap');
 @import url('https://fonts.cdnfonts.com/css/berkshire-swash');
 
-* {
+html {
     list-style: none;
     text-decoration: none;
 }
 
-body {
-    overflow: hidden !important;
-}
-
 body.light {
     background-color: #ddd !important;
-    color: #333 !important;
+    color: #000 !important;
+    transition: ease-in-out .5s;
 }
 
 body.dark {
     background-color: #141414;
     color: #f5f5f5 !important;
+    transition: ease-in-out .5s;
 }
 
-.form-check-input:checked {
-    background-color: #dc3545 !important;
+section {
+    overflow: hidden;
 }
 
 .section-home {
@@ -52,11 +50,9 @@ body.dark {
 }
 
 .cv {
-    color: #fff;
     padding: 0.938rem 2.5rem;
     border-radius: 0.313rem;
-    border: 0.125rem solid #dc3545;
-    text-decoration: none;
+    border: .120rem solid #dc3545 !important;
 }
 
 .description {
@@ -69,6 +65,10 @@ body.dark {
     font-family: 'Poppins';
     font-weight: 600;
     letter-spacing: 0.063rem;
+}
+
+.bold {
+    font-weight: bold !important;
 }
 
 .img-author {
@@ -96,6 +96,7 @@ body.dark {
 .img-about {
     animation: ladoSecao .5s ease-in-out forwards;
     max-width: 100%;
+    border: .150rem solid #aaa;
 }
 
 .info-about {
@@ -155,12 +156,11 @@ body.dark {
 }
 
 /* DARK MODE */
-
 .dark-mode {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 0.75em;
     box-shadow: 0.125em 0.125em 0 0.125em rgba(0, 0, 0, 0.3) inset;
-    color: #fdea7b;
+    color: #dc3545; /* #fdea7b */
     display: inline-flex;
     align-items: center;
     margin: auto;
@@ -296,9 +296,9 @@ body.dark {
 /* RESPONSIVIDADE */
 
 @media (max-width: 766px) {
-    /* body {
+    body {
         overflow-y: auto !important;
-    } */
+    }
 
     /* PAGINA MOBILE */
     .link::after {
