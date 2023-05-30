@@ -501,17 +501,17 @@ body.dark {
 /* A PARTIR DA RESOLUÇÃO 1400 (XXL) */
 @media (min-width: 87.5rem) {
     .section-home {
-        height: 90vh !important;
+        height: 89.8vh !important;
         padding-left: 0rem;
     }
 
     .section-about {
-        height: 94vh !important;
+        height: 89.8vh !important;
         overflow: hidden !important;
     }
 
     .section-tech {
-        height: 94vh !important;
+        height: 89.8vh !important;
     }
 
     /* PAGINA SOBRE */
