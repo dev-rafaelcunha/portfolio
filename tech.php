@@ -22,10 +22,9 @@
 
             <div>
 
-                <div class="title-header">
-                    <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Tecnologias
-                    </h2>
-                    <p class="text-center fs-5 text-secondary">Linguagens | Habilidades
+                <div class="title-header py-5">
+                    <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Tecnologias</h2>
+                    <p class="text-center my-2 fs-5 text-secondary">Linguagens | Habilidades
                     </p>
                     <div class="d-flex justify-content-center">
                         <span class="points mx-1"></span>
@@ -34,7 +33,7 @@
                     </div>
                 </div>
 
-                <div class="row my-5 py-4">
+                <div class="row my-5">
 
                     <div class="col-lg-2 my-3">
                         <div class="card bg-dark">

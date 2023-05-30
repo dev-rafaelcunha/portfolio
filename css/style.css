@@ -9,44 +9,41 @@ html {
 body.light {
     background-color: #ddd !important;
     color: #000 !important;
-    transition: ease-in-out .5s;
+    transition: ease-in-out .2s;
 }
 
 body.dark {
     background-color: #141414;
     color: #f5f5f5 !important;
-    transition: ease-in-out .5s;
-}
-
-section {
-    overflow: hidden;
+    transition: ease-in-out .2s;
 }
 
 .section-home {
     animation: initialize .7s forwards;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 100vh;
+    height: 89.8vh !important;
 }
 
 .section-about {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 100vh;
+    height: 89.8vh;
 }
 
 .section-tech {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
+    height: 89.8vh;
 }
 
 .section-mobile {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 100vh;
+    height: 89.8vh;
 }
 
 .cv {
@@ -446,7 +443,7 @@ section {
     }
 
     .section-tech {
-        height: 100vh;
+        height: 89.8vh;
     }
 
     .toggle {

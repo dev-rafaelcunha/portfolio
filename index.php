@@ -17,12 +17,12 @@
     <!-- HEADER -->
 
     <!-- CONTAINER - SECTION -->
-    <div class="container">
+    <div class="container py-3">
         <section class="section-home d-flex align-items-center justify-content-center">
 
             <div class="row">
-                <div class="col-6 py-5 mx-5">
-                    <h2 class="py-3 title">Rafael Cunha</h2>
+                <div class="col-6 mx-5">
+                    <h2 class="py-5 title">Rafael Cunha</h2>
                     <h3 class="py-2 typing d-sm-flex">Desenvolvedor Back-end</h3>
                     <hr>
                     <div class="d-lg-inline d-none justify-content-center">
@@ -38,7 +38,7 @@
                         <a class="btn btn-lg btn-outline-danger description-bold cv" href="file/Currículo Rafa.pdf" target="_blank">Download CV</a>
                     </div>
                 </div>
-                <div class="col my-4">
+                <div class="col my-4 py-2">
                     <img src="img/rafa.png" alt="Imagem ilustrativa do autor" class="img-author d-lg-flex d-none">
                 </div>
             </div>
