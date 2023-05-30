@@ -547,6 +547,7 @@ body.dark {
 
     .title-header {
         display: block;
+        margin-top: -15px !important;
     }
 
     .info-about {
