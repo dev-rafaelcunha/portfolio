@@ -22,28 +22,28 @@ body.dark {
     animation: initialize .7s forwards;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 89.8vh !important;
+    height: 88vh !important;
 }
 
 .section-about {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 89.8vh;
+    height: 88vh;
 }
 
 .section-tech {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 89.8vh;
+    height: 88vh;
 }
 
 .section-mobile {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 89.8vh;
+    height: 88vh;
 }
 
 .cv {
@@ -443,7 +443,7 @@ body.dark {
     }
 
     .section-tech {
-        height: 89.8vh;
+        height: 88vh;
     }
 
     .toggle {
@@ -501,17 +501,19 @@ body.dark {
 /* A PARTIR DA RESOLUÇÃO 1400 (XXL) */
 @media (min-width: 87.5rem) {
     .section-home {
-        height: 89.8vh !important;
+        height: 88vh !important;
         padding-left: 0rem;
+        overflow: hidden !important;
     }
 
     .section-about {
-        height: 89.8vh !important;
+        height: 88vh !important;
         overflow: hidden !important;
     }
 
     .section-tech {
-        height: 89.8vh !important;
+        height: 88vh !important;
+        overflow: hidden !important;
     }
 
     /* PAGINA SOBRE */
