@@ -12,13 +12,14 @@
 
 <body class="light">
 
-    <!-- HEADER -->
-    <?php require_once('include/header.php') ?>
-    <!-- HEADER -->
+    <!-- CONTAINER -->
+    <div class="container" style="height: 100vh;">
 
-    <!-- CONTAINER - SECTION -->
-    <div class="container py-3">
-        <section class="section-home d-flex align-items-center justify-content-center">
+      <!-- HEADER -->
+      <?php require_once('include/header.php') ?>
+      <!-- HEADER -->
+
+        <section class="section-home d-flex align-items-center" style="height: 100vh !important;">
 
             <div class="row">
                 <div class="col-6 mx-5">
@@ -45,7 +46,7 @@
 
         </section>
     </div>
-    <!-- CONTAINER - SECTION -->
+    <!-- CONTAINER -->
 
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>

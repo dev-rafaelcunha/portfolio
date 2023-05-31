@@ -4,6 +4,11 @@
 html {
     list-style: none;
     text-decoration: none;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
 }
 
 body.light {
@@ -22,28 +27,24 @@ body.dark {
     animation: initialize .7s forwards;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 88vh !important;
 }
 
 .section-about {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 88vh;
 }
 
 .section-tech {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 88vh;
 }
 
 .section-mobile {
     animation: none !important;
     font-family: 'Poppins';
     font-weight: normal;
-    height: 88vh;
 }
 
 .cv {
@@ -361,11 +362,6 @@ body.dark {
         padding-right: 200px !important;
     }
 
-    .info-about p {
-        padding: 5px !important;
-        display: block !important;
-    }
-
     .info-author {
         display: flex !important;
     }
@@ -442,10 +438,6 @@ body.dark {
         padding-left: 0rem;
     }
 
-    .section-tech {
-        height: 88vh;
-    }
-
     .toggle {
         display: none;
     }
@@ -489,10 +481,6 @@ body.dark {
         display: none;
     }
 
-    .info-about {
-        margin-top: 60px !important;
-    }
-
     .info-author {
         display: flex !important;
     }
@@ -501,19 +489,7 @@ body.dark {
 /* A PARTIR DA RESOLUÇÃO 1400 (XXL) */
 @media (min-width: 87.5rem) {
     .section-home {
-        height: 88vh !important;
         padding-left: 0rem;
-        overflow: hidden !important;
-    }
-
-    .section-about {
-        height: 88vh !important;
-        overflow: hidden !important;
-    }
-
-    .section-tech {
-        height: 88vh !important;
-        overflow: hidden !important;
     }
 
     /* PAGINA SOBRE */
@@ -524,10 +500,6 @@ body.dark {
 
     .title-header {
         display: none;
-    }
-
-    .info-about {
-        margin-top: 80px !important;
     }
 
     .info-author {
@@ -550,10 +522,6 @@ body.dark {
     .title-header {
         display: block;
         margin-top: -15px !important;
-    }
-
-    .info-about {
-        margin-top: 80px !important;
     }
 
     .info-author {

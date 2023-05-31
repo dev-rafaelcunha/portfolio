@@ -12,13 +12,14 @@
 
 <body class="light">
 
-    <!-- HEADER -->
-    <?php require_once('include/headerMobile.php') ?>
-    <!-- HEADER -->
+    <!-- CONTAINER -->
+    <div class="container" style="height: 100vh;">
 
-    <!-- SECTION -->
-    <div class="container">
-        <section class="section-mobile d-flex align-items-center justify-content-center">
+        <!-- HEADER -->
+        <?php require_once('include/headerMobile.php') ?>
+        <!-- HEADER -->
+
+        <section class="section-mobile d-flex align-items-center justify-content-center" style="height: 100vh;">
 
             <nav class="navbar">
 
@@ -105,7 +106,7 @@
 
         </section>
     </div>
-    <!-- SECTION -->
+    <!-- CONTAINER -->
 
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>

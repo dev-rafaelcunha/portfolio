@@ -12,19 +12,20 @@
 
 <body class="light">
 
-    <!-- HEADER -->
-    <?php require_once('include/header.php') ?>
-    <!-- HEADER -->
+    <!-- CONTAINER -->
+    <div class="container" style="height: 100vh;">
 
-    <!-- CONTAINER - SECTION -->
-    <div class="container">
-        <section class="section-about d-flex align-items-center justify-content-center">
+        <!-- HEADER -->
+        <?php require_once('include/header.php') ?>
+        <!-- HEADER -->
+
+        <section class="section-about d-flex align-items-center" style="height: 100vh;">
 
             <div>
 
-                <div class="title-header py-5">
+                <div class="title-header">
                     <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Quem Sou?</h2>
-                    <p class="text-center my-2 fs-5 text-secondary">Perfil profissional | Tudo sobre mim!
+                    <p class="text-center fs-5 text-secondary">Perfil profissional | Tudo sobre mim!
                     </p>
                     <div class="d-flex justify-content-center">
                         <span class="points mx-1"></span>
@@ -33,13 +34,12 @@
                     </div>
                 </div>
 
-                <div class="row my-4">
+                <div class="row my-5">
 
-                    <div class="col-5 my-3">
-                        <img src="img/rafa2.png" alt="Imagem ilustrativa do autor"
-                            class="img-about d-md-flex d-none">
+                    <div class="col-5">
+                        <img src="img/rafa2.png" alt="Imagem ilustrativa do autor" class="img-about d-md-flex d-none">
                     </div>
-                    <div class="col-7 my-4 info-about">
+                    <div class="col-7 info-about">
                         <h3>Rafael Cunha</h3>
                         <h5>Desenvolvedor PHP</h5>
                         <hr>
@@ -77,7 +77,7 @@
 
         </section>
     </div>
-    <!-- CONTAINER - SECTION -->
+    <!-- CONTAINER -->
 
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>
