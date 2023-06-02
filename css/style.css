@@ -4,11 +4,11 @@
 html {
     list-style: none;
     text-decoration: none;
-    overflow: hidden !important;
 }
 
 body {
     height: 100vh;
+    overflow: hidden !important;
 }
 
 body.light {
