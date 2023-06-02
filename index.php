@@ -10,7 +10,7 @@
     <title>Portfólio</title>
 </head>
 
-<body class="light overflow-hidden">
+<body class="overflow-hidden">
 
     <!-- CONTAINER -->
     <div class="container" style="height: 100vh;">
@@ -51,7 +51,7 @@
     <!-- FOOTER -->
     <?php require_once('include/footer.php') ?>
     <!-- FOOTER -->
-
+    
     <script src="js/script.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/a57e572c96.js" crossorigin="anonymous"></script>
