@@ -8,7 +8,6 @@ html {
 
 body {
     height: 100vh;
-    overflow: hidden !important;
 }
 
 body.light {
@@ -294,10 +293,6 @@ body.dark {
 /* RESPONSIVIDADE */
 
 @media (max-width: 766px) {
-    body {
-        overflow-y: auto !important;
-    }
-
     /* PAGINA MOBILE */
     .link::after {
         content: '';
@@ -326,10 +321,6 @@ body.dark {
 
 /* ATÉ 767 (SM) */
 @media (max-width: 47.938rem) {
-    body {
-        overflow-y: auto !important;
-    }
-
     .section-home {
         padding-left: 4.125rem;
     }
@@ -386,10 +377,6 @@ body.dark {
 
 /* A PARTIR DA RESOLUÇÃO 768 (MD) */
 @media (min-width: 48rem) {
-    body {
-        overflow-y: auto !important;
-    }
-
     .section-home {
         padding-left: 15.625rem;
     }

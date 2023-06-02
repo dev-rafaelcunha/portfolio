@@ -10,7 +10,7 @@
     <title>Portfólio/Sobre</title>
 </head>
 
-<body class="light">
+<body class="light overflow-hidden">
 
     <!-- CONTAINER -->
     <div class="container" style="height: 100vh;">
@@ -19,7 +19,7 @@
         <?php require_once('include/header.php') ?>
         <!-- HEADER -->
 
-        <section class="section-tech d-flex align-items-center" style="height: 100vh;">
+        <section class="section-tech d-flex align-items-center overflow-auto" style="height: 100vh;">
 
             <div>
 
