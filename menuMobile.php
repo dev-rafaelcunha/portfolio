@@ -10,7 +10,7 @@
     <title>Portfólio</title>
 </head>
 
-<body class="light">
+<body>
 
     <!-- CONTAINER -->
     <div class="container" style="height: 100vh;">
@@ -21,7 +21,7 @@
 
         <section class="section-mobile d-flex align-items-center justify-content-center" style="height: 100vh;">
 
-            <nav class="navbar">
+            <nav>
 
                 <div class="nav" id="navbarSupportedContent">
                     <ul class="navbar-nav h5 nav-mobile">

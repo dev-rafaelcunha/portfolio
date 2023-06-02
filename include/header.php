@@ -86,7 +86,7 @@
             </div>
         </div>
         <div>
-            <input class="dark-mode d-lg-flex d-none" type="checkbox" onclick="toggleDarkMode()">
+            <input id="dark-mode-button" class="dark-mode d-lg-flex d-none" type="checkbox">
         </div>
     </nav>
 </header>
