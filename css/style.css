@@ -11,7 +11,7 @@ body {
 }
 
 .light {
-    background-color: #ddd !important;
+    background-color: rgb(170, 247, 234) !important;
     color: #000 !important;
     transition: ease-in-out .2s;
 }
@@ -317,6 +317,10 @@ body {
         text-decoration: none;
         font-size: .6rem !important;
     }
+
+    .section-tech {
+        padding-bottom: 4rem !important;
+    }
 }
 
 /* ATÉ 767 (SM) */
@@ -373,6 +377,10 @@ body {
         padding: 0px;
         border-bottom: 4px solid #dc3545;
     }
+
+    .section-tech {
+        padding-bottom: 4rem !important;
+    }
 }
 
 /* A PARTIR DA RESOLUÇÃO 768 (MD) */
@@ -416,6 +424,10 @@ body {
         height: 0px;
         padding: 0px;
         border-bottom: 4px solid #dc3545;
+    }
+
+    .section-tech {
+        padding-bottom: 4rem !important;
     }
 }
 
@@ -471,6 +483,11 @@ body {
     .info-author {
         display: flex !important;
     }
+
+    /* PAGINA MOBILE */
+    .section-tech {
+        padding: 0 !important;
+    }
 }
 
 /* A PARTIR DA RESOLUÇÃO 1400 (XXL) */
@@ -491,6 +508,11 @@ body {
 
     .info-author {
         display: flex !important;
+    }
+
+    /* PAGINA MOBILE */
+    .section-tech {
+        padding: 0 !important;
     }
 }
 
@@ -513,5 +535,10 @@ body {
 
     .info-author {
         display: flex !important;
+    }
+
+    /* PAGINA MOBILE */
+    .section-tech {
+        padding: 0 !important;
     }
 }

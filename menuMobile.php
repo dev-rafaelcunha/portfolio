@@ -10,7 +10,7 @@
     <title>Portfólio</title>
 </head>
 
-<body>
+<body class="overflow-hidden">
 
     <!-- CONTAINER -->
     <div class="container" style="height: 100vh;">
@@ -19,7 +19,7 @@
         <?php require_once('include/headerMobile.php') ?>
         <!-- HEADER -->
 
-        <section class="section-mobile d-flex align-items-center justify-content-center" style="height: 100vh;">
+        <section class="section-mobile d-flex align-items-center justify-content-center overflow-auto" style="height: 100vh;">
 
             <nav>
 
