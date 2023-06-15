@@ -21,21 +21,21 @@
 
         <section class="section-mobile d-flex align-items-center justify-content-center overflow-auto" style="height: 100vh;">
 
-            <nav>
+            <nav class="navbar">
 
                 <div class="nav" id="navbarSupportedContent">
                     <ul class="navbar-nav h5 nav-mobile">
                         <li class="nav-item">
-                            <a class="nav-link link" aria-current="page" href="index.php">Início</a>
+                            <a class="nav-link link text-secondary" aria-current="page" href="index.php">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" href="about.php">Sobre</a>
+                            <a class="nav-link link text-secondary" href="about.php">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" href="tech.php">Tecnologias</a>
+                            <a class="nav-link link text-secondary" href="tech.php">Tecnologias</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Projetos
                             </a>
@@ -76,7 +76,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Contatos
                             </a>
