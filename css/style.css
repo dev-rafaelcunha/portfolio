@@ -30,7 +30,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #141414;
+    background-color: #111111;
 }
 
 ::selection {
@@ -336,6 +336,7 @@ body {
 
     .section-tech {
         padding-bottom: 4rem !important;
+        background-color: #111111 !important;
     }
 }
 
@@ -396,6 +397,7 @@ body {
 
     .section-tech {
         padding-bottom: 4rem !important;
+        background-color: #111111;
     }
 }
 
@@ -444,6 +446,7 @@ body {
 
     .section-tech {
         padding-bottom: 4rem !important;
+        background-color: #111111;
     }
 }
 
@@ -479,6 +482,10 @@ body {
     .link:hover::after {
         display: none;
     }
+
+    .section-tech {
+        background-color: inherit !important;
+    }
 }
 
 /* A PARTIR DA RESOLUÇÃO 1200 (XL) */
@@ -503,6 +510,7 @@ body {
     /* PAGINA MOBILE */
     .section-tech {
         padding: 0 !important;
+        background-color: inherit !important;
     }
 }
 
@@ -529,6 +537,7 @@ body {
     /* PAGINA MOBILE */
     .section-tech {
         padding: 0 !important;
+        background-color: inherit !important;
     }
 }
 
@@ -556,5 +565,6 @@ body {
     /* PAGINA MOBILE */
     .section-tech {
         padding: 0 !important;
+        background-color: inherit !important;
     }
 }
