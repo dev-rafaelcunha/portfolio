@@ -10,7 +10,7 @@
     <title>Portfólio/Sobre</title>
 </head>
 
-<body class="overflow-hidden">
+<body class="overflow-hidden light">
 
     <!-- CONTAINER -->
     <div class="container" style="height: 100vh;">
