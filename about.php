@@ -41,13 +41,13 @@
                     </div>
                     <div class="col-7 info-about">
                         <h3>Rafael Cunha</h3>
-                        <h5>Desenvolvedor PHP</h5>
+                        <h5>Desenvolvedor Full Stack</h5>
                         <hr>
                         <div class="paragrafo d-md-inline d-none">
-                            <p class="description">Meu nome é Rafael, sou desenvolvedor back-end, atualmente faço
-                                estágio na empresa <b>Tork Soluções</b>, como desenvolvedor PHP.
+                            <p class="description">Meu nome é Rafael, sou <b>Desenvolvedor Web</b> e atualmente trabalho
+                                na empresa <b>Tork Company</b>, como Desenvolvedor Júnior.
                             </p>
-                            <p class="description">Atuo também na parte de front-end, podendo desenvolver sistemas,
+                            <p class="description">Atuo muito na parte de front-end, podendo desenvolver sistemas,
                                 sites, blogs, altamente responsivos.</p>
                             <p class="description">Amo tecnologia, estou sempre disposto a aprender e compartilhar meus
                                 conhecimentos, em busca de novos desafios.</p>

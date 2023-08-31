@@ -103,6 +103,21 @@
                         <div class="card bg-dark">
                             <div class="card-body description my-2">
                                 <h5 class="card-title"><i
+                                        class="fa-brands fa-react text-danger d-flex justify-content-center"
+                                        style="font-size: 69px;"></i></h5>
+                                <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">
+                                    ReactJs</h6>
+                                <p class="card-text text-white-50 text-center" style="font-size: 11px;">
+                                    <strong>Biblioteca reativa</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 my-3">
+                        <div class="card bg-dark">
+                            <div class="card-body description my-2">
+                                <h5 class="card-title"><i
                                         class="fa-brands fa-php text-danger d-flex justify-content-center"
                                         style="font-size: 69px;"></i></h5>
                                 <h6 class="card-subtitle my-3 text-light text-center" style="font-size: 14px;">PHP</h6>
