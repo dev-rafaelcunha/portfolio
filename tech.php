@@ -21,7 +21,7 @@
 
         <section class="section-tech d-flex align-items-center overflow-auto" style="height: 100vh;">
 
-            <div>
+            <div class="tech_mobile">
 
                 <div class="title-header">
                     <h2 class="text-center text-danger" style="font-family: 'berkshire Swash', cursive;">Tecnologias
@@ -35,7 +35,7 @@
                     </div>
                 </div>
 
-                <div class="row my-5">
+                <div class="row row-cards">
 
                     <div class="col-lg-2 my-3">
                         <div class="card bg-dark">

@@ -56,6 +56,14 @@ body {
     font-weight: normal;
 }
 
+.tech_mobile {
+    height: 65vh !important;
+}
+
+.row-cards {
+    padding: 2rem 0 !important;
+}
+
 .section-mobile {
     animation: none !important;
     font-family: 'Poppins';
@@ -335,8 +343,15 @@ body {
     }
 
     .section-tech {
-        padding-bottom: 4rem !important;
         background-color: #111111 !important;
+    }
+
+    .tech_mobile {
+        height: 96vh !important;
+    }
+
+    .row-cards {
+        padding: 2rem 2rem 6rem !important;
     }
 }
 
@@ -396,8 +411,15 @@ body {
     }
 
     .section-tech {
-        padding-bottom: 4rem !important;
-        background-color: #111111;
+        background-color: #111111 !important;
+    }
+
+    .tech_mobile {
+        height: 96vh !important;
+    }
+
+    .row-cards {
+        padding: 3rem 2rem 7rem !important;
     }
 }
 
@@ -445,8 +467,15 @@ body {
     }
 
     .section-tech {
-        padding-bottom: 4rem !important;
-        background-color: #111111;
+        background-color: #111111 !important;
+    }
+
+    .tech_mobile {
+        height: 94vh !important;
+    }
+
+    .row-cards {
+        padding: 2rem 2rem 5rem !important;
     }
 }
 
@@ -486,6 +515,14 @@ body {
     .section-tech {
         background-color: inherit !important;
     }
+
+    .tech_mobile {
+        height: 65vh !important;
+    }
+    
+    .row-cards {
+        padding: 2rem 0 !important;
+    }
 }
 
 /* A PARTIR DA RESOLUÇÃO 1200 (XL) */
@@ -511,6 +548,14 @@ body {
     .section-tech {
         padding: 0 !important;
         background-color: inherit !important;
+    }
+
+    .tech_mobile {
+        height: 65vh !important;
+    }
+    
+    .row-cards {
+        padding: 2rem 0 !important;
     }
 }
 
@@ -539,6 +584,14 @@ body {
         padding: 0 !important;
         background-color: inherit !important;
     }
+
+    .tech_mobile {
+        height: 65vh !important;
+    }
+    
+    .row-cards {
+        padding: 2rem 0 !important;
+    }
 }
 
 /* A PARTIR DA RESOLUÇÃO 1600 (CUSTOM) */
@@ -566,5 +619,13 @@ body {
     .section-tech {
         padding: 0 !important;
         background-color: inherit !important;
+    }
+
+    .tech_mobile {
+        height: 65vh !important;
+    }
+    
+    .row-cards {
+        padding: 2rem 0 !important;
     }
 }
