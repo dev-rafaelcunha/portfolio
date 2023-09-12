@@ -22,56 +22,60 @@
                         <ul class="dropdown-menu">
                             <li><span class="dropdown-item d-flex align-items-center" style="font-size: 14px;"><span
                                         class="px-2">
-                                        <strong>Próprio</strong></span></span></li>
+                                        <strong>Próprio</strong></span></span>
+                            </li>
                             <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
                                     href="http://localhost/sistema-php/" target="_blank"><span
                                         class="px-2 d-flex align-items-center"><i
                                             class="fa-solid fa-circle px-2 text-danger"
                                             style="font-size: 5px;"></i>Sistema PHP
                                     </span></a></li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><span class="dropdown-item d-flex align-items-center" style="font-size: 14px;"><span
-                                        class="px-2">
-                                        <strong>Hcode Treinamentos</strong></span></span></li>
-                            <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                    href="http://localhost/estudos/netflix-clone/" target="_blank"><span
-                                        class="px-2 d-flex align-items-center"><i
-                                            class="fa-solid fa-circle px-2 text-danger"
-                                            style="font-size: 5px;"></i>Netflix Clone
-                                    </span></a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                    href="http://localhost/estudos/hcode-bootstrap/Whatsapp/" target="_blank"><span
-                                        class="px-2 d-flex align-items-center"><i
-                                            class="fa-solid fa-circle px-2 text-danger"
-                                            style="font-size: 5px;"></i>WhatsApp Clone
-                                    </span></a></li>
-                        </ul>
+                            <hr class="dropdown-divider">
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Contatos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                    href="https://contate.me/rafaelcunha" target="_blank"><i
-                                        class="fa-brands fa-whatsapp text-danger fs-5 px-2"></i><span
-                                        class="">WhatsApp</span></a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                    href="https://www.instagram.com/dev.rafaelcunha/" target="_blank"><i
-                                        class="fa-brands fa-instagram text-danger fs-5 px-2"></i><span
-                                        class="">Instagram</span></a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                    href="https://www.linkedin.com/in/devrafaelcunha/" target="_blank"><i
-                                        class="fa-brands fa-linkedin-in text-danger fs-5 px-2"></i><span
-                                        class=""><strong>Linkedin</strong></span></a></li>
-                            <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                    href="https://github.com/dev-rafaelcunha" target="_blank"><i
-                                        class="fa-brands fa-github text-danger fs-5 px-2"></i><span
-                                        class=""><strong>GitHub</strong></span></a></li>
-                        </ul>
-                    </li>
+                    <li><span class="dropdown-item d-flex align-items-center" style="font-size: 14px;"><span
+                                class="px-2">
+                                <strong>Hcode Treinamentos</strong></span></span></li>
+                    <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                            href="http://localhost/estudos/netflix-clone/" target="_blank"><span
+                                class="px-2 d-flex align-items-center"><i class="fa-solid fa-circle px-2 text-danger"
+                                    style="font-size: 5px;"></i>Netflix Clone
+                            </span></a></li>
+                    <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                            href="http://localhost/estudos/hcode-bootstrap/Whatsapp/" target="_blank"><span
+                                class="px-2 d-flex align-items-center"><i class="fa-solid fa-circle px-2 text-danger"
+                                    style="font-size: 5px;"></i>WhatsApp Clone
+                            </span></a></li>
+                    <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                            href="http://localhost/estudos/calculadora-clone" target="_blank"><span
+                                class="px-2 d-flex align-items-center"><i class="fa-solid fa-circle px-2 text-danger"
+                                    style="font-size: 5px;"></i>Calculadora Clone
+                            </span></a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Contatos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                                href="https://contate.me/rafaelcunha" target="_blank"><i
+                                    class="fa-brands fa-whatsapp text-danger fs-5 px-2"></i><span
+                                    class="">WhatsApp</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                                href="https://www.instagram.com/dev.rafaelcunha/" target="_blank"><i
+                                    class="fa-brands fa-instagram text-danger fs-5 px-2"></i><span
+                                    class="">Instagram</span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                                href="https://www.linkedin.com/in/devrafaelcunha/" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in text-danger fs-5 px-2"></i><span
+                                    class=""><strong>Linkedin</strong></span></a></li>
+                        <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                                href="https://github.com/dev-rafaelcunha" target="_blank"><i
+                                    class="fa-brands fa-github text-danger fs-5 px-2"></i><span
+                                    class=""><strong>GitHub</strong></span></a></li>
+                    </ul>
+                </li>
                 </ul>
             </div>
             <div class="toggle">
@@ -79,7 +83,8 @@
             </div>
         </div>
         <div>
-            <input id="dark-mode-button" class="btn btn-sm ms-5 btn-outline-danger d-lg-flex d-none" type="button" value="Dark-Mode">
+            <input id="dark-mode-button" class="btn btn-sm ms-5 btn-outline-danger d-lg-flex d-none" type="button"
+                value="Dark-Mode">
         </div>
     </nav>
 </header>

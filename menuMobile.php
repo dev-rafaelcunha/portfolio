@@ -19,7 +19,8 @@
         <?php require_once('include/headerMobile.php') ?>
         <!-- HEADER -->
 
-        <section class="section-mobile d-flex align-items-center justify-content-center overflow-auto" style="height: 100vh;">
+        <section class="section-mobile d-flex align-items-center justify-content-center overflow-auto"
+            style="height: 100vh;">
 
             <nav class="navbar">
 
@@ -35,8 +36,8 @@
                             <a class="nav-link link text-secondary" href="tech.php">Tecnologias</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Projetos
                             </a>
                             <ul class="dropdown-menu">
@@ -48,12 +49,6 @@
                                             class="px-2 d-flex align-items-center"><i
                                                 class="fa-solid fa-circle px-2 text-danger"
                                                 style="font-size: 5px;"></i>Sistema PHP
-                                        </span></a></li>
-                                <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
-                                        href="http://localhost/sistema-php-lite/" target="_blank"><span
-                                            class="px-2 d-flex align-items-center"><i
-                                                class="fa-solid fa-circle px-2 text-danger"
-                                                style="font-size: 5px;"></i>Sistema PHP vLite
                                         </span></a></li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -73,11 +68,17 @@
                                                 class="fa-solid fa-circle px-2 text-danger"
                                                 style="font-size: 5px;"></i>WhatsApp Clone
                                         </span></a></li>
+                                <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                                        href="http://localhost/estudos/calculadora-clone" target="_blank"><span
+                                            class="px-2 d-flex align-items-center"><i
+                                                class="fa-solid fa-circle px-2 text-danger"
+                                                style="font-size: 5px;"></i>Calculadora Clone
+                                        </span></a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Contatos
                             </a>
                             <ul class="dropdown-menu">
