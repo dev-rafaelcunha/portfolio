@@ -50,6 +50,15 @@
                                 class="px-2 d-flex align-items-center"><i class="fa-solid fa-circle px-2 text-danger"
                                     style="font-size: 5px;"></i>Calculadora Clone
                             </span></a></li>
+                    <hr class="dropdown-divider">
+                    <li><span class="dropdown-item d-flex align-items-center" style="font-size: 14px;"><span
+                                class="px-2">
+                                <strong>Hora de Codar</strong></span></span></li>
+                    <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
+                            href="http://localhost/costs" target="_blank"><span
+                                class="px-2 d-flex align-items-center"><i class="fa-solid fa-circle px-2 text-danger"
+                                    style="font-size: 5px;"></i>Costs
+                            </span></a></li>
                 </ul>
                 </li>
                 <li class="nav-item dropdown">
