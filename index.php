@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col-6 mx-5">
                     <h2 class="py-5 title">Rafael Cunha</h2>
-                    <h3 class="py-2 typing d-sm-flex">Desenvolvedor Back-end</h3>
+                    <h3 class="py-2 typing d-sm-flex">Desenvolvedor Full Stack</h3>
                     <hr>
                     <div class="d-lg-inline d-none justify-content-center">
                         <p class="my-4 description text-start">Sejam bem Vindos! Me chamo Rafael, tenho 27 anos, e estou

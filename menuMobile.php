@@ -48,7 +48,7 @@
                                         href="http://localhost/sistema-php/" target="_blank"><span
                                             class="px-2 d-flex align-items-center"><i
                                                 class="fa-solid fa-circle px-2 text-danger"
-                                                style="font-size: 5px;"></i>Sistema PHP
+                                                style="font-size: 5px;"></i>Sistema CRUD -<span class="ms-1 text-danger fw-bold">(PHP)</span>
                                         </span></a></li>
                                 <li>
                                     <hr class="dropdown-divider">
@@ -60,19 +60,19 @@
                                         href="http://localhost/estudos/netflix-clone/" target="_blank"><span
                                             class="px-2 d-flex align-items-center"><i
                                                 class="fa-solid fa-circle px-2 text-danger"
-                                                style="font-size: 5px;"></i>Netflix Clone
+                                                style="font-size: 5px;"></i>Netflix Clone -<span class="ms-1 text-danger fw-bold">(Bootstrap)</span>
                                         </span></a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
                                         href="http://localhost/estudos/hcode-bootstrap/Whatsapp/" target="_blank"><span
                                             class="px-2 d-flex align-items-center"><i
                                                 class="fa-solid fa-circle px-2 text-danger"
-                                                style="font-size: 5px;"></i>WhatsApp Clone
+                                                style="font-size: 5px;"></i>WhatsApp Clone -<span class="ms-1 text-danger fw-bold">(Bootstrap)</span>
                                         </span></a></li>
                                 <li><a class="dropdown-item d-flex align-items-center" style="font-size: 14px;"
                                         href="http://localhost/estudos/calculadora-clone" target="_blank"><span
                                             class="px-2 d-flex align-items-center"><i
                                                 class="fa-solid fa-circle px-2 text-danger"
-                                                style="font-size: 5px;"></i>Calculadora Clone
+                                                style="font-size: 5px;"></i>Calculadora Clone -<span class="ms-1 text-danger fw-bold">(JavaScript)</span>
                                         </span></a></li>
                                 <hr class="dropdown-divider">
                                 <li><span class="dropdown-item d-flex align-items-center" style="font-size: 14px;"><span
@@ -82,7 +82,7 @@
                                         href="http://localhost/costs" target="_blank"><span
                                             class="px-2 d-flex align-items-center"><i
                                                 class="fa-solid fa-circle px-2 text-danger"
-                                                style="font-size: 5px;"></i>Costs
+                                                style="font-size: 5px;"></i>Costs -<span class="ms-1 text-danger fw-bold">(ReactJs)</span>
                                         </span></a></li>
                             </ul>
                         </li>
