@@ -1,9 +1,9 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-5" style="background-color: #000;">
-        <div class="container">
+        <div class="container-fluid">
             <a href="index.php" class="text-light text-decoration-none"><span
-                    class="text-danger h3 mx-2">Portfólio</span></a>
-            <div class="nav" id="navbarSupportedContent">
+                    class="text-danger h3">Portfólio</span></a>
+            <div class="nav pe-5 me-5" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 h5 d-lg-flex d-none">
                     <li class="nav-item">
                         <a class="nav-link link" aria-current="page" href="index.php">Início</a>

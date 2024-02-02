@@ -1,4 +1,4 @@
-<footer class="fixed-bottom text-light d-flex justify-content-between p-4" style="background-color: #000;">
+<footer class="fixed-bottom text-light d-flex justify-content-between p-4 px-5" style="background-color: #000;">
     <div class="col d-flex justify-content-start d-xl-flex d-none align-items-center">
         <span class="mx-3">HTML</span>
         <span class="mx-3">CSS</span>
