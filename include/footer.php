@@ -1,14 +1,15 @@
-<footer class="py-3 fixed-bottom text-light d-flex justify-content-between px-5" style="background-color: #000;">
-    <div class="col d-flex justify-content-start d-lg-flex d-none"></div>
-    <div class="col text-center">
-        <p class="fs-7">&copy; Portfólio desenvolvido em:</p>
-        <span class="mx-3 text-secondary">HTML</span>
-        <span class="mx-3 text-secondary">CSS</span>
-        <span class="mx-3 text-secondary">Bootstrap</span>
-        <span class="mx-3 text-secondary">JavaScript</span>
-        <span class="mx-3 text-secondary">PHP</span>
+<footer class="py-3 fixed-bottom text-light d-flex justify-content-between px-5 py-4" style="background-color: #000;">
+    <div class="col d-flex justify-content-start d-lg-flex d-none align-items-center">
+        <span class="mx-3">HTML</span>
+        <span class="mx-3">CSS</span>
+        <span class="mx-3">Bootstrap</span>
+        <span class="mx-3">JavaScript</span>
+        <span class="mx-3">PHP</span>
+    </div>
+    <div class="col d-flex align-items-center justify-content-center">
+        <p class="m-0">Cpyright &copy; 2023 <span class="text-danger">Rafael Cunha.</span> Todos os direitos reservados.</p>
     </div>
     <div class="col d-flex justify-content-end align-items-center d-lg-flex d-none">
-        <p class="text-danger m-0">&copy; Rafael Cunha</p>
+        <p class="text-danger m-0">v 1.0</p>
     </div>
 </footer>
