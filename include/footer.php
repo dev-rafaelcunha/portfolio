@@ -7,7 +7,7 @@
         <span class="mx-3">PHP</span>
     </div>
     <div class="col d-flex align-items-center justify-content-center">
-        <p class="m-0">Cpyright &copy; 2023 <span class="text-danger">Rafael Cunha.</span></span></p>
+        <p class="m-0">Copyright &copy; 2023 <span class="text-danger">Rafael Cunha.</span></span></p>
     </div>
     <div class="col d-flex justify-content-end align-items-center d-xl-flex d-none d-lg-flex d-none">
         <p class="text-danger m-0">v 1.0</p>
